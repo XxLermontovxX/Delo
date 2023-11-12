@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="html, course, css, tags">
+	<meta name="description" content="Это базовый курс по html">
+	<title>Prototype</title>
+	<style type="text/css">
+		.header {			
+			border-bottom: 2px solid grey;
+		}
+
+		.card {
+			background-color: #eee;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<!-- ставят точку в начале .header, значит это относиться к классу.
+		 background-color отвечает за задний план для классов, например .card-->
+	span - Это код используется для взаимодействии текста внутри заголовков и параграфов
+	<br>
+	strong - делает шрифт черным
+	<br>
+	em - наклоняет шрифт
+	<br>
+	color - Задаёт цвет линии
+	<br>
+	aligh - Задаёт правило выравнивания.По умолчанию значение выставлено как left
+	<br>
+	noshade - Заполняет форму заданным цветом
+	<br>
+	Size - Устанавливает высоту в пикселях
+	<br>
+	width - Задает длину линии в пикселях либо в %
+	<br>
+	style="color: цвет" - меняет цвет текста
+	<br>
+	ul - код используется для нумерованием кружочками и также красной строки
+		Атрибуты:
+		circle - изменяет кружочки в белый цвет но контур черный.
+		square - изменяет форму кружочков на квадратик.
+		disc - изменяет форму кружочков в форму дисков, кароче херня какая то.
+	<br>
+	ol - код используется для нумерования цифр и также красной строки
+		Атрибуты:
+		I - изменяет цифры в римские цифры.
+		i - изменяет цифры также римскими цифрами.
+		а - изменяет цифры на буквы алфавита с А до Я.
+	<h1>Первая страница</h1>
+	пример текста
+	<br> 
+	<hr color="red" size="5" noshade width="100000">
+	<a href="https://starve.io/">Ссылка</a>
+	<br>
+	<a href="https://minecraft-inside.ru/resource-packs/93541-milkyway-galaxy-night-sky.html" target="_blank">Minecraft Текстур пак</a>
+	<p>
+	<a href="Abama.html" target="_blank">Заходи в мой кишлак будешь жирным как ишак</a>	
+	</p>
+	<h1>Я Абоба</h1>
+
+	<h2>Я Абоба</h2>
+
+	<h3>Я Абоба</h3>
+
+	<h4>Я Абоба</h4>
+
+	<h5>Я Абоба</h5>
+
+	<h6>Я Абоба</h6>
+
+	<p>Это <strong><em>первый параграф</em></strong> текста <br>Это <strong><em>первый параграф</em></strong> текста <br>Это <em>первый параграф</em>
+  текста <br>Это <em>первый параграф</em> текста</p>
+
+  	<hr color="blue" size="5" noshade width="100000">
+
+  	<p>Это <strong><em>второй параграф</em></strong> текста <br>Это <strong><em>второй параграф</em></strong> текста <br>Это <em>второй параграф</em>
+  текста <br>Это <em>второй параграф</em> текста</p>
+  <hr>
+  <h2>Это МОщная Картина Жиес</h2>
+  <img src="https://oboi247.ru/img/post/t-17/0.jpg" width="400" alt="Картина пейзаж">
+  <img src="https://avatars.mds.yandex.net/i?id=6cd24186e7a4b393bf2d77668ca91ad2a90ab4e1-8209530-images-thumbs&n=13" width="400" alt="пейзаж ну типа">
+  <img src="https://i.pinimg.com/originals/63/c3/af/63c3afec547d8844d2485ca631d0964c.gif" alt="Гиф Пейзаж" width="300">
+  <h2>Это МОщные картинки жиес, но локальные</h2>
+  <img src="imgs/KrutoiPeizash.jpeg" width="300" alt="АОБОА">
+  <img src="imgs/2023-09-24_18.51.59.png" width="300" alt="АОБОА">
+	<h1>Таблицы</h1>
+
+	<table border="2" width="350">
+		<thead>
+		<tr>
+			<th>Пол</th>
+			<th>Имя</th>
+			<th>Адрес</th>
+			<th>Рост</th>
+			<th>Вес</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Мужской</td>
+			<td>Николай</td>
+			<td>Кр_Б_Д21_Кв10</td>
+			<td>180см</td>
+			<td>60кг</td>
+		</tr>
+	</table>
+</tbody>
+<h1>List</h1>
+<ul type="disc">
+	<li>Элемент 1</li>
+	<li>Элемент 2</li>
+	<li>Элемент 3</li>
+	<li>Элемент 4</li>
+	<li>Элемент 5</li>
+</ul>
+
+<ol type="">
+	<li>Элемент 1</li>
+	<li>Элемент 2</li>
+	<li>Элемент 3</li>
+	<li>Элемент 4</li>
+	<li>Элемент 5</li>	
+</ol>
+
+<hr>
+
+<ul type="disc">
+	<li>Элемент 1</li>
+	<li>Элемент 2</li>
+	<li>Элемент 4</li>
+		<ul>
+			<li>Вложенный Элемент 1</li>
+			<li>Вложенный Элемент 2</li>
+			<li>Вложенный Элемент 3</li>
+		</ul>
+	<li>Элемент 5</li>
+</ul>
+	<h1>Формы</h1>
+
+<form>
+	<div>
+		<label for="text2">Текст</label>
+		<input type="text2" id="text2" value="Ты ничего не сможешь здесь написать." readonly>
+		<!--readonly - тип который не дает написать в ячейку строки-->
+	</div>
+	<div>
+		<label for="text">Текст</label>
+		<input type="text" id="text" value="Текст по умолчанию"><!--value - Тип нужен для записанного текста по умолчанию-->
+	</div>
+
+	<div>
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="Введите email"><!--placeholder - Тип нужен для подсказки в письменной строке-->
+	</div>
+
+	<div>
+		<label for="password">Пароль</label>
+		<input type="password" id="password">
+	</div>
+
+	<div>
+		<label for="number">Число</label>
+		<input type="number" id="number" min="0">
+	</div>
+
+	<div>
+		<label for="range">Range</label>
+		<input type="range" id="range" min="0" max="10" step="2">
+	</div>
+
+	<div>
+		<label for="date">Дата</label>
+		<input type="date" id="date">
+	</div>
+
+	<div>
+		<label for="color">Цвет</label>
+		<input type="color" id="color">
+	</div>
+
+	<div>
+		<label for="message">сообщение</label>
+		<br>
+		<textarea id="message" cols="55" rows="5"></textarea> <!--Код cols - Ширина 	Rows - Высота -->
+	</div>
+
+	<div>
+		<label for="sex">Ваш Пол</label>	<!--Код value - нужен для выбора в ячейке -->
+		<select id="sex">
+			<option value="male">Мужчина</option>
+			<option value="female" selected>Женщина</option>	
+			<option value="other">Другое</option>
+		</select>
+	</div>
+	
+	<div>
+		<label>Количество работ</label>
+		<input type="radio" name="work"> 1
+		<input type="radio" name="work"> 2  			<!--Radio - тип нужен для одновыборной ячейке -->
+		<input type="radio" name="work"> 5 				<!--checkbox - тип нужен для многовыборных ячеек -->
+		<input type="radio" name="work"> 10+
+	</div>
+
+	<div>
+		<label>Любимая еда</label>
+		<input type="checkbox" name="food"> Хинкали
+		<input type="checkbox" name="food"> Яичница
+		<input type="checkbox" name="food"> Овощной рагу
+		<input type="checkbox" name="food"> Миска варёной картошки
+	</div>
+
+	<!--<input type="Submit" value="Отправить форму">-->
+	<button type="Submit">Отправить форму</button>
+</form>
+
+<h1>Blocks</h1>
+
+
+
+	<!--<span> - Это код используется для взаимодействии текста внутри заголовков и параграфов-->
+
+ <p style="border: 2px solid blue;">dfkghsdkfl<strong>jghds<span style="border: 2px solid pink;">kjfghsdkljfghkldsfghksdfkglhdskfjghsdkfjghskdjfgh
+ dlkfjgldfkjgdlkjgdklfj</span>g<br>ldkjfglkdfjglkdf</strong>jglkdjfgjfkgkfjgfkg
+fjkgjfkgjfkgjfkgjkfjgkfjgkfjgkfjgkfdgldgjdfklgjldkfgj</p>
+
+ <p style="border: 2px solid blue;">dfkghsdkfljghdskjfghsdk<strong>ljfgh<br>kldsfghksdfkglhdskfjghsdkfjghskdjfgh
+ dlkfjgldfkjgdlkjgdk</strong><span style="border: 2px solid pink;">lfjgldkjfglkdfjglkdfjglkdjfgjfkgkfjgfkg
+fjkgjfkgjfkgjfkgjkfjgkfjgkfjgkfjgkf</span>dgldgjdfklgjldkfgj
+fffffff</p>
+ <a href="#" style="border: 2px solid red;">This is link 1</a>
+ <a href="#" style="border: 2px solid red;">This is link 2</a>
+ <div style="border: 2px solid green;">
+ 	<a href="#" style="border: 2px solid black;">This is link 3</a>
+ </div>
+
+<div id="header" class="header">
+	<h2>Site</h2>
+</div>
+
+<div id="navigation">
+	<ul>
+		<li><a href="#">Items 1</a></li>
+		<li><a href="#">Items 2</a></li>
+		<li><a href="#">Items 3</a></li>
+	</ul>
+</div>
+
+<hr>	<!-- Использование класса, можно их также суммировать. К примеру есть 2 класса: header и card. Пишем в атрибут class="card header"-->
+
+<div id="block1" class="card header">
+	<h3>Block 1</h3>
+	<p>Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. </p>
+</div>
+
+<div id="block2" class="card">
+	<h3>Block 1</h3>
+	<p>Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. Это типо текст. </p>
+</div>
+
+<div id="footer">
+	<h4>Contact me</h4>
+	<ul>
+		<li>Шедеврум</li>
+		<li>Discord</li>
+		<li>YouTube</li>
+	</ul>
+</div>
+</body>
+</html>
